@@ -8,6 +8,8 @@ app.use(express.urlencoded({ extended: true}));
 app.use(express.static(__dirname + "/public"));
 app.set("view engine", "ejs");
 
+app.use(require("./routes/todos"));
+
 mongoose.connect(process.env.DB_CONNECT,
     { useNewUrlParser: true, useUnifiedTopology: true }
 );
