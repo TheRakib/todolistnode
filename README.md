@@ -20,3 +20,6 @@ Order:
 - Use gitignore on .env and node_modules. 
 - Connect to MongoDB using mongoose. 
 - Create branch develop, from which all other branches will start. 
+
+- Do the Schema in models/todo. 
+- Create todos file in routes. Will be single file with only get/  post, as I use controller-files for the actual functions. 
