@@ -23,3 +23,6 @@ Order:
 
 - Do the Schema in models/todo. 
 - Create todos file in routes. Will be single file with only get/  post, as I use controller-files for the actual functions. 
+
+- Create Controller folder, with all the controller-routes needed. Name the files basically for what they will do for ease of understanding. 
+
