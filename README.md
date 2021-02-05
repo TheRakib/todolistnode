@@ -12,3 +12,11 @@
 * Everything should be uploaded to Git as it develops
 * There should be pagination for different pages
 * Users should be able to sort todos by date
+
+Used in this project: Nodemon, Express, Mongoose, EJS, Dotenv
+
+Order:
+- Setup basic structure using folders for views, models, routes, public assets like css. 
+- Use gitignore on .env and node_modules. 
+- Connect to MongoDB using mongoose. 
+- Create branch develop, from which all other branches will start. 
