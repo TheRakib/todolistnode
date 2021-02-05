@@ -1,6 +1,6 @@
 # Todo List with Node js
 
-### Assigment from the course "Dynamic Webdevelopment" which focus on backend development, and using Node js especially.*
+### Assignment from the course "Dynamic Webdevelopment" which focus on backend development, and using Node js especially.*
 
 *Brief* 
 
