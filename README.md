@@ -33,3 +33,7 @@ Used in this project: Nodemon, Express, Mongoose, EJS, Dotenv
 - Basic html setup in files Header & Footer, along with all necessary files to run bootstrap, google fonts, font awesome icons and css. 
 
 - Add html/ejs to index, edit and error files. Index and edit are basically copies on each other, except for the update form available in edit. Error is for errormessage when trying to add todo without filling in input, or too short or too long message. 
+
+- Create main.css file for extra styling. This todolist uses mainly bootstrap for style, color and margins but some styling requires css as with size on fonts, and background. 
+
+- Of course, double and triple check that every feature is working. Add, sorting, editing, done/not done, delete, errormessage. Use mongoDB to make sure the database works correctly, and deletes/changes/update as it should. 
