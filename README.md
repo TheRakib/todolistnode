@@ -15,7 +15,7 @@
 
 Used in this project: Nodemon, Express, Mongoose, EJS, Dotenv
 
-Order:
+*Order:*
 - Setup basic structure using folders for views, models, routes, public assets like css. 
 - Use gitignore on .env and node_modules. 
 - Connect to MongoDB using mongoose. 
@@ -32,4 +32,4 @@ Order:
 
 - Basic html setup in files Header & Footer, along with all necessary files to run bootstrap, google fonts, font awesome icons and css. 
 
-- Add html/ejs to index, edit and error files. Index and edit are basically copies on each other, except for the update form available in edit. Error is for errormessage when trying to add todo with filling in input, or too short or too long message. 
+- Add html/ejs to index, edit and error files. Index and edit are basically copies on each other, except for the update form available in edit. Error is for errormessage when trying to add todo without filling in input, or too short or too long message. 
