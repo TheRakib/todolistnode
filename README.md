@@ -31,3 +31,5 @@ Order:
 - Add EJS files in views-folder. Also add folder with additional files, for partials and helpers. 
 
 - Basic html setup in files Header & Footer, along with all necessary files to run bootstrap, google fonts, font awesome icons and css. 
+
+- Add html/ejs to index, edit and error files. Index and edit are basically copies on each other, except for the update form available in edit. Error is for errormessage when trying to add todo with filling in input, or too short or too long message. 
