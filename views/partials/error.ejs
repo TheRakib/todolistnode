@@ -1,0 +1,23 @@
+<%- include("header") %>
+    <nav class="navbar navbar-light bg-light d-flex justify-content-center">
+        <a class="navbar-brand" href="/">Todo List <i class="fas fa-clipboard-list"></i></a>
+    </nav>
+
+<% if (err) { %>
+
+    <div class="container">
+        <div class="alert alert-primary alert-dismissible mt-4">
+            <strong>You did not write a todo. Please write a todo, atleast 2 characters and no more than 30, in the input field.</strong>
+        </div>
+        <a href="/" class="btn btn-primary">Return to Startpage</a>
+    </div>
+  
+<% } %>
+
+    <footer class="footer mt-5">
+        <div class="container d-flex justify-content-center align-items-center">
+            <p>Copyright &copy; 2021 Fredrik André</p>
+        </div>
+    </footer>
+
+<%- include("footer") %>
