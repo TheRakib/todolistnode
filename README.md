@@ -36,4 +36,4 @@ Used in this project: Nodemon, Express, Mongoose, EJS, Dotenv
 
 - Create main.css file for extra styling. This todolist uses mainly bootstrap for style, color and margins but some styling requires css as with size on fonts, and background. 
 
-- Of course, double and triple check that every feature is working. Add, sorting, editing, done/not done, delete, errormessage.
+- Of course, double and triple check that every feature is working. Add, sorting, editing, done/not done, delete, errormessage. Use mongoDB to make sure the database works correctly, and deletes/changes/update as it should. 
