@@ -17,7 +17,7 @@ Used in this project: Nodemon, Express, Mongoose, EJS, Dotenv
 
 *Order:*
 - Setup basic structure using folders for views, models, routes, public assets like css. 
-- Use gitignore on .env and node_modules. 
+- Use gitignore on .env and node_modules. You have to create your own mongo account to connect. 
 - Connect to MongoDB using mongoose. 
 - Create branch develop, from which all other branches will start. 
 
@@ -37,3 +37,6 @@ Used in this project: Nodemon, Express, Mongoose, EJS, Dotenv
 - Create main.css file for extra styling. This todolist uses mainly bootstrap for style, color and margins but some styling requires css as with size on fonts, and background. 
 
 - Of course, double and triple check that every feature is working. Add, sorting, editing, done/not done, delete, errormessage. Use mongoDB to make sure the database works correctly, and deletes/changes/update as it should. 
+
+#### Conclusion
+The list works fine, I added in a done or not done function with true/false, and errormessage. Both of which were not demanded in the brief. Things that could be better: If you update a todo, it will go back to start page, instead of staying at the same page you were on. Also the same goes for delete. 
