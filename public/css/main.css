@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Global Rules*/
+body {
+    background-image: linear-gradient(to left, #F8F8FF, #2F4F4F) ;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.navbar-brand .fas {
+    font-size: 2rem;
+}
+
+.footertext {
+    margin: 3rem 0;
+}
+
+/* List Rules*/
+.todotext {
+    font-weight: 600;
+}
+
+.datetext {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+.crossed {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+.fas {
+    font-size: 1.2rem;
+}
