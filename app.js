@@ -13,5 +13,6 @@ app.use(require("./routes/todos"));
 mongoose.connect(process.env.DB_CONNECT,
     { useNewUrlParser: true, useUnifiedTopology: true }
 );
+// fånga err ifall man inte lyckas koppla till databasen
 
 app.listen(5000, () => console.log("Server listening at port 5000"));
